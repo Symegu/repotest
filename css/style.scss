@@ -1,0 +1,71 @@
+@import "_var.scss";
+
+@import "_mixins.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: $desktop-wrap;
+    margin: 0 auto;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/*шапка*/
+@import "block/header";
+
+/*промо*/
+@import "block/promo";
+
+/*категории*/
+@import "block/categories";
+
+/*товары дня*/
+@import "block/feauture";
+
+/*преимущества*/
+@import "block/adventages";
+
+/*фидбек*/
+@import "block/feedback";
+
+/*футер*/
+@import "block/footer";
+
+/*новые поступления*/
+@import "block/arrivals";
+
+/*фильтр*/
+@import "block/filter";
+
+/*пагинация*/
+@import "block/pagination";
+
+/*регистрация*/
+@import "block/account";
+
+/*КОРЗИНКА*/
+@import "block/basket";
+
+/*адрес отправки*/
+@import "block/adress";
+
+@import "block/about";
+
+@import "block/preview";
+
+@import "block/main-menu";
+
+/*Адаптив*/
+@import "block/adaptive_index";
+
+@import "block/adative_catalog";
+
+@import "block/adaptive_product";

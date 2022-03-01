@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,yBAAyB,CAAC;EACtB,UAAU,EAAE,WAAW;CAC1B;;AAED,AAAA,mBAAmB,CAAC;EAChB,SAAS,EAAE,QAAQ;EACnB,WAAW,EAAE,MAAM;EACnB,mBAAmB,EAAE,IAAI;EACzB,gBAAgB,EAAE,IAAI;EACtB,WAAW,EAAE,IAAI;CACpB;;AAED,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,sBAAsB,CAAC;IACnB,SAAS,EAAE,MAAM;GACpB",
+    "sources": [
+        "stylelanding.scss"
+    ],
+    "names": [],
+    "file": "stylelanding.css"
+}

@@ -1,0 +1,53 @@
+/*шапка*/
+.header {
+    background: $main-black;
+    padding: 18px 0;
+    color: white;
+    position: relative;
+
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    text-decoration: none;
+    color: transparent;
+    margin-right: 41px;
+}
+
+.search, .menu {
+    background-color: transparent;
+    border: none;
+}
+
+.registration, .basket {
+    text-decoration: none;
+    color: transparent;
+}
+
+.registration {
+    margin: 0 33px;
+}
+
+/* 5-е домашнее задание, 2-ой пункт*/
+
+.dance-main {
+    transition: 0.5s;
+    /*transition: 1s; - для более плавного поворота на 360°, так симпатичнее*/
+}
+
+.dance-main:hover {
+    transform: rotate(180deg);
+    /*transform: rotate(360deg); - а вот и эти 360°*/
+}
+
+
+
